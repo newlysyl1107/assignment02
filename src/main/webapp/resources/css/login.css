@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#signin-area {
+	width: 70% !important;
+	padding-left: 15em;
+	padding-right: 15em;
+}
+#find-area {
+	float: right;
+}
+#find-area a {
+	color: black;
+}
+label {
+	text-align: left;
+}

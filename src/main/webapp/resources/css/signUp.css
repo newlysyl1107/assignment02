@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#signiup-area {
+	width: 80% !important;
+}
+
+#signiup-area {
+	padding-left: 15em;
+	padding-right: 15em;
+}
+label, h4 {
+	text-align: left;
+}

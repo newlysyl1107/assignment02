@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="member">
+    
+    <!-- 아이디 중복확인 -->
+    <select id="idCheck" parameterType="String" resultType="int">
+        SELECT count(*)
+        FROM GENERAL_MEMBER
+        WHERE ID=#{id}
+    </select>
+    
+    <!-- 회원가입 -->
+    <insert id="signUp" parameterType="nd.career.com.model.MemberDTO">
+       INSERT INTO GENERAL_MEMBER(SEQ, PASSWORD, DEPARTMENT, NAME, ID, GENDER, BIRTHDAY, PHONE, EMAIL, AUTH)
+       VALUES(general_member_seq.nextval, #{password}, ${department}, #{name}, #{id}, #{gender}, #{birthday}, #{phone}, #{email}, 3)
+    </insert>
+    
+    <!-- 로그인 -->
+    <select id="login" parameterType="nd.career.com.model.MemberDTO" resultType="nd.career.com.model.MemberDTO">
+        SELECT *
+        FROM GENERAL_MEMBER
+        WHERE ID=#{id} AND PASSWORD=#{password}
+    </select>
+</mapper>

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#main-info {
+	background: rgba(52, 152, 219, 0.28);
+}
+
+.main-menus {
+	padding: 2em;
+	margin: 1em;
+}
+
+.main-menus:hover {
+	background: rgb(52, 152, 219);
+	color: white;
+	cursor: pointer;
+}
+
+.main-menus:hover .icon {
+	background: rgb(52, 152, 219);
+	color: white;
+	cursor: pointer;
+}
+
+#notice-area>div {
+	padding: 1em;
+}
+
+.icon {
+	font-size: xx-large;
+	color: rgb(52, 152, 219);
+}
+
+#notice-content>div {
+	background: rgba(52, 152, 219, 0.28);
+	padding: 0.5em;
+	margin: 0.3em;
+}
+
+.noticeLine:hover {
+	background: #4183c4 !important;
+	color: white;
+	cursor: pointer;
+}

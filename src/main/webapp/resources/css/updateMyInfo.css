@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+a {
+	color: #000;
+}
+
+.updateCon {
+	margin-top: 70px;
+}
+
+.photo-area {
+	text-align: center;
+	padding-bottom: 17px;
+	border-bottom: 1px solid #cecece;
+	padding-top: 29px;
+}
+
+.photo-area>img {
+	width: 200px;
+	height: 200px;
+}
+
+.addPhotoBtn {
+	width: 200px;
+	background-color: rgb(52, 152, 219);
+	color: #fff;
+	border: none;
+	height: 58px;
+	border-radius: 6px 6px 6px 6px;
+	font-size: 15px;
+	font-weight: 200;
+}
+
+.date-area {
+	padding-top: 30px;
+}
+
+.findAddBtn {
+	width: 90px;
+	background-color: rgb(52, 152, 219);
+	border: none;
+	color: #fff;
+	height: 30px;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.form-control {
+	display: inline;
+}
+
+.updateBtn {
+	margin-left: 106px;
+	background-color: rgb(52, 152, 219);
+	width: 34%;
+	height: 38px;
+	border: none;
+	color: #fff;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.withdrawalBtn {
+	margin-left: 5px;
+	width: 34%;
+	height: 38px;
+	background-color: #cecece;
+	border: none;
+	border-radius: 6px 6px 6px 6px;
+}
